@@ -5,7 +5,7 @@ def reverse_each_word(phrase)
     x = word.reverse()
     reverse_array << x
   end
-  puts reverse_array.join(" ")
+  return reverse_array.join(" ")
 end
 
 reverse_each_word("Hello word this is me")
