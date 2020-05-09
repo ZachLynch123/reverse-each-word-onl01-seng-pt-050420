@@ -3,5 +3,5 @@ def reverse_each_word(phrase)
   puts phrase
 end
 
-reverse_each_word
+reverse_each_word("Hello word!")
   
