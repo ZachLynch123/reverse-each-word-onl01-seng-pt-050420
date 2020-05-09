@@ -1,6 +1,7 @@
 def reverse_each_word(phrase)
   array = phrase.split(" ")
-  puts array.reverse()
+  array.reverse()
+  puts array.join(" ")
 end
 
 reverse_each_word("Hello word this is me")
