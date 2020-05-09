@@ -3,7 +3,6 @@ def reverse_each_word(phrase)
   array.collect do |word|
     puts word.reverse()
   end
-  puts array
 end
 
 reverse_each_word("Hello word this is me")
